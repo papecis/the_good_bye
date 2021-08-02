@@ -32,18 +32,18 @@
       <div class="row">
         <!--Logo-->
         <div class="col-4">
-          <img src="assets/logo.png">
+          <img src="assets/logo.png" class="img-fluid">
         </div>
         <!--Navbar-->
         <div class="col-8">
           <nav class="navbar navbar-expand-lg float-right">
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#">Features <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">About</a>
-                  <a class="nav-item nav-link" href="#">Testimonials</a>
-                  <a class="nav-item nav-link " href="#">Download</a>
-                  <a class="nav-item nav-link " href="#">Contact</a>
+                  <a class="nav-item nav-link p-1" href="#">Features | </a>
+                  <a class="nav-item nav-link p-1" href="#">About |</a>
+                  <a class="nav-item nav-link p-1" href="#">Testimonials |</a>
+                  <a class="nav-item nav-link p-1" href="#">Download |</a>
+                  <a class="nav-item nav-link p-1" href="#">Contact</a>
                 </div>
               </div>
           </nav>
@@ -56,39 +56,39 @@
           <h3 class="mt-5 pl-5">Tagline With Your Unique Selling Proposition</h3>
           <p class="card-text pl-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
           <div class="pl-5">
-              <button>Call to Action</button>
-              <button>Call to Action</button>
+              <button type="button" class="btn btn-secondary">Call to Action</button>
+              <button type="button" class="btn btn-secondary">Call to Action</button>
           </div>
         </div>
         <!--Phone-->
         <div class="col-6">
-            <img src="assets/phone.png" class="float-right mr-5">
+            <img src="assets/phone.png" class="float-right mr-5 img-fluid">
         </div>
       </div>
 
       <!--Cards-->
       <div class="row mt-3 ml-5">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="col-sm">
+            <div class="card border-0" style="width: 18rem;">
+                <i class="fas fa-plus-circle fa-3x text-center"></i>
                <div class="card-body">
                  <h5 class="card-title">Card title</h5>
                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="col-sm">
+            <div class="card border-0" style="width: 18rem;">
+                <i class="fas fa-plus-circle fa-3x text-center"></i>
                <div class="card-body">
                  <h5 class="card-title">Card title</h5>
                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="col-sm">
+            <div class="card border-0" style="width: 18rem;">
+                <i class="fas fa-plus-circle fa-3x text-center"></i>
                <div class="card-body">
                  <h5 class="card-title">Card title</h5>
                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -110,18 +110,18 @@
       </div>
        
        <!--Carrousel-->
-      <div class="row">
-        <div class="col-12">
+      <div>
+        <div class="col-12 h-50">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="assets/image1.png" alt="First slide">
+                  <img class="d-block w-100 img-fluid" src="assets/image1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/image1.png" alt="Second slide">
+                  <img class="d-block w-100 img-fluid" src="assets/image1.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/image1.png" alt="Third slide">
+                  <img class="d-block w-100 img-fluid" src="assets/image1.png" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -141,22 +141,34 @@
         <div class="col-6">
           <h3>Get In Touch </h3>
           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          
+          <div class="border border-bottom-1 mb-3"></div>
+          <div>
+            <p><i class="fas fa-map-pin pr-3"></i>1717 Harrison St, San Francisco, CA94103, USA</p>
+            <p><i class="fas fa-phone pr-2"></i>123-123-1234</p>
+          </div>
         </div>
       <!--Form -->
         <div class="col-6">
           <form class="mr-5">
             <div class="row">
-              <div class="col">
+              <div class="col-6 pl-0">
                 <input type="text" class="form-control" placeholder="First name">
               </div>
-              <div class="col">
+              <div class="col-6 pr-0">
                 <input type="text" class="form-control" placeholder="Last name">
               </div>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <input type="submit" class="form-control" value="Submit">
+                
               <div>
               </div>
             </div>
+             <div class="row">
+                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             </div>
+             <div class="row float-left">
+                    <input type="submit" class="form-control" value="Send">
+             </div>
+             
           </form>
         </div>
       </div>
@@ -168,7 +180,7 @@
         </div>
         <!--Download the app-->
         <div class="col-6">
-            <button>Downlaod the App</button>
+            <button type="button" class="btn btn-secondary">Download the App</button>
         </div>
       </div>
 
